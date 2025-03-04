@@ -11,3 +11,6 @@ test("Convierte 2 a II", () => {
 test("Convierte 3 a III", () => {
   expect(decimalARomano(3)).toBe("III");
 });
+test("Convierte 7 a VII", () => {
+  expect(decimalARomano(7)).toBe("VII");
+});
