@@ -23,3 +23,11 @@ test("Convierte 15 a XV", () => {
 test("Convierte 20 a XX", () => {
   expect(decimalARomano(20)).toBe("XX");
 });
+
+test("Convierte 35 a XXXV", () => {
+  expect(decimalARomano(35)).toBe("XXXV");
+});
+
+test("Convierte 50 a XX", () => {
+  expect(decimalARomano(50)).toBe("L");
+});
