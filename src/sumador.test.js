@@ -31,3 +31,7 @@ test("Convierte 35 a XXXV", () => {
 test("Convierte 50 a XX", () => {
   expect(decimalARomano(50)).toBe("L");
 });
+
+test("Convierte 82 a LXXXII", () => {
+  expect(decimalARomano(82)).toBe("LXXXII");
+});
