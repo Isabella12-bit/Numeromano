@@ -1,5 +1,4 @@
-function sumar(a, b) {
-  return a + b;
+export function decimalARomano(num) {
+  if (num === 1) return "I";
+  return "";
 }
-
-export default sumar;
